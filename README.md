@@ -7,6 +7,8 @@ old, using 3.x, this is updated to use 5.x)
 Note: for AWS credentials, make a file (which will be git ignored) in the root level of this project
 named "credentials" (no file extention) with contents like this:
 
+```
 [default]
 aws_access_key_id = <your-key>
 aws_secret_access_key = <your-secret>
+```
