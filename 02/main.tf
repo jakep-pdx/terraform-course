@@ -1,6 +1,7 @@
 # Configure the AWS Provider
 provider "aws" {
-  region = "us-west-2"
+  region                   = "us-west-2"
+  shared_credentials_files = ["../credentials"]
 }
 
 #Retrieve the list of AZs in the current AWS region
